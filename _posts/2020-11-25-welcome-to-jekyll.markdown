@@ -1,6 +1,6 @@
 ---
-layout: post
-title:  "Welcome to Jekyll!"
+layout: single
+title:  "Welcome to my site!"
 date:   2020-11-25 19:20:15 +0000
 categories: jekyll update
 ---

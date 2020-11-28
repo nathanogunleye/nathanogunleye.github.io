@@ -10,7 +10,57 @@ header:
   actions:
     - label: "Google Play"
       url: "https://play.google.com/store/apps/details?id=com.nathanodong.london_bus_hunter"
+# toc: true
+# toc_label: "Table of Contents"
+# toc_icon: "align-justify"
+gallery:
+  - url: assets/images/londonbushunter/vehicle_location.jpg
+    image_path: assets/images/londonbushunter/vehicle_location.jpg
+    alt: "Vehicle Location"
+    title: "Vehicle Location"
+  - url: assets/images/londonbushunter/vehicle_history.jpg
+    image_path: assets/images/londonbushunter/vehicle_history.jpg
+    alt: "Vehicle History"
+    title: "Vehicle History"
+  - url: assets/images/londonbushunter/route_history.jpg
+    image_path: assets/images/londonbushunter/route_history.jpg
+    alt: "Route History"
+    title: "Route History"
+  - url: assets/images/londonbushunter/rare_vehicles.jpg
+    image_path: assets/images/londonbushunter/rare_vehicles.jpg
+    alt: "Rare Vehicles"
+    title: "Rare Vehicles"
+  - url: assets/images/londonbushunter/rare_vehicles.gif
+    image_path: assets/images/londonbushunter/rare_vehicles.gif
+    alt: "Rare Vehicles GIF"
+    title: "Rare Vehicles"
 ---
-More details coming soon...
+London Bus Hunter (LBH) is not your typical bus ETA app. LBH unlocks
+enthusiast-centric features in the palm of your hands.
 
-In the meantime, download my app from the [Google Play Store](https://play.google.com/store/apps/details?id=com.nathanodong.london_bus_hunter)
+# Background
+## Why did I build the app?
+As an avid bus enthusiast I love knowing which bus type will be
+aiding me in my journeys. The official TfL website was basic
+enough for me to use for retriving ETA times and bus stops (local
+or by route, per direction). But gave no information on the vehicle
+registration, fleet code, or operator.
+
+I came across another website which provided the enthusiast centric
+features I was looking for, but it lacked some functionality that the
+average user would need. It also was also not very optimized for mobile,
+which made it tedious to use when leisurely travelling out and about.
+
+For a long time I had to use the TfL website and the enthusiast tool.
+Instead of constantly switching tabs in my browser and struggling
+to navigate desktop-focused websites, I decided to marry the two.
+
+<!-- ## How did I do it?
+
+# Features
+## Vehicle Location
+## Route and Vehicle History
+## Rare Vehicles -->
+
+# Gallery
+{% include gallery id="gallery" caption="Gallery" %}

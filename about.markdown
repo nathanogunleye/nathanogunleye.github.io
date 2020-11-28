@@ -2,6 +2,7 @@
 layout: single
 title: About Me
 permalink: /about/
+author_profile: true
 ---
 
 My name is Nathan Ogunleye.
@@ -14,4 +15,4 @@ I also like code.
 
 Sometimes I like to bring the two together.
 
-Check out my projects!
+Check out my stuff!

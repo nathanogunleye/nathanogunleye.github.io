@@ -48,7 +48,7 @@ registration, fleet code, or operator.
 
 I came across another website which provided the enthusiast centric
 features I was looking for, but it lacked some functionality that the
-average user would need. It also was also not very optimized for mobile,
+average user would need. It also not very optimized for mobile,
 which made it tedious to use when leisurely travelling out and about.
 
 For a long time I had to use the TfL website and the enthusiast tool.

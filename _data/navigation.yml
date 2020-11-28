@@ -2,11 +2,7 @@
 main:
   - title: "Home"
     url: /
-  - title: "London Bus Hunter"
-    url: /london-bus-hunter/
-  # - title: "National Rail Hunter"
-  #   url: /national-rail-hunter/
+  # - title: "Blog"
+  #   url: /blog/
   - title: "About"
     url: /about/
-  - title: "Contact"
-    url: /contact/

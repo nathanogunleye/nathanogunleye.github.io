@@ -1,11 +1,10 @@
 ---
 layout: splash
 title: Home
-# author_profile: true
-excerpt: "Welcome to my blog"
+excerpt: "Hi, I'm Nathan. And I build apps for fun."
 header:
   overlay_image: /assets/images/home/YX12FON_interior.jpg
-  overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
+  overlay_filter: 0.5
   caption: "ADE40426 YX12FON, Route 18, RATP London United (Interior)"
 feature_row:
   - image_path: /assets/images/home/lbh_logo.png

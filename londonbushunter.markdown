@@ -55,12 +55,15 @@ For a long time I had to use the TfL website and the enthusiast tool.
 Instead of constantly switching tabs in my browser and struggling
 to navigate desktop-focused websites, I decided to marry the two.
 
-<!-- ## How did I do it?
+## How did I do it?
+- Collecting data
+- API
+- Flutter
 
 # Features
 ## Vehicle Location
 ## Route and Vehicle History
-## Rare Vehicles -->
+## Rare Vehicles
 
 # Gallery
 {% include gallery id="gallery" caption="Gallery" %}

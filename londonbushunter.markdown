@@ -10,9 +10,9 @@ header:
   actions:
     - label: "Google Play"
       url: "https://play.google.com/store/apps/details?id=com.nathanodong.london_bus_hunter"
-# toc: true
-# toc_label: "Table of Contents"
-# toc_icon: "align-justify"
+toc: true
+toc_label: "Table of Contents"
+toc_icon: "align-justify"
 gallery:
   - url: assets/images/londonbushunter/vehicle_location.jpg
     image_path: assets/images/londonbushunter/vehicle_location.jpg
@@ -34,11 +34,16 @@ gallery:
     image_path: assets/images/londonbushunter/rare_vehicles.gif
     alt: "Rare Vehicles GIF"
     title: "Rare Vehicles"
+  - url: assets/images/londonbushunter/vehicle_history.gif
+    image_path: assets/images/londonbushunter/vehicle_history.gif
+    alt: "Vehicle History GIF"
+    title: "Vehicle History"
 ---
 London Bus Hunter (LBH) is not your typical bus ETA app. LBH unlocks
 enthusiast-centric features in the palm of your hands.
 
 # Background
+
 ## Why did I build the app?
 As an avid bus enthusiast I love knowing which bus type will be
 aiding me in my journeys. The official TfL website was basic
@@ -56,23 +61,37 @@ Instead of constantly switching tabs in my browser and struggling
 to navigate desktop-focused websites, I decided to marry the two.
 
 ## Technologies
-### API
-The back-end was initially written in PHP. This eventually got too
-difficult to maintain so I migrated to Java using Spring. This
-conventiently lined up with the Java code I had for the Android app.
 
 ### App
 Back in my university days, Java was my main tool. This made native
 Android app development much easier to learn. In early 2020 I discovered
 Flutter, an easy to learn framework for Android *and* iOS development!
 
-So I took time to learn the framework and release a newer, fresher version
-of the app. Easier to maintain and potential for more platform availability
+So I took time to learn the framework and release a newer, fresher
+version of the app. Easier to maintain and potential for more platform
+availability
 
-<!-- # Features
-## Vehicle Location
+### API
+The back-end was initially written in PHP. This eventually got too
+difficult to maintain so I migrated to Java using Spring. This
+conventiently lined up with the Java code I had for the Android app.
+
+The Java application hosts a REST API to handle all communication
+to the TfL API feed.
+
+# Features
+## Rare Vehicles
+LBH will show you which vehicles are rare or new to a route. You can sort
+these results by Fleet Code, Operator Name, Route Name, or ETA.
+
+![Rare Vehicles](assets/images/londonbushunter/rare_vehicles.gif){: style="display: block; margin-left: auto; margin-right: auto ;width: 50%" }
+
 ## Route and Vehicle History
-## Rare Vehicles -->
+LBH stores up to 3 months worth of historical bus workings in it's database 
+(Sorting functionality coming later). Historical vehicle usage data is not
+provided by TfL. All data is recorded by LBH.
+
+![Vehicle History](assets/images/londonbushunter/vehicle_history.gif){: style="display: block; margin-left: auto; margin-right: auto ;width: 50%" }
 
 # Gallery
 {% include gallery id="gallery" caption="Gallery" %}

@@ -1,7 +1,7 @@
 ---
 layout: splash
 title: Home
-excerpt: "Hi, I'm Nathan. And I build apps for fun."
+excerpt: "Hi, I'm Nathan and I build apps for fun."
 header:
   overlay_image: /assets/images/home/YX12FON_interior.jpg
   overlay_filter: 0.5

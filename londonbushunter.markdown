@@ -55,15 +55,24 @@ For a long time I had to use the TfL website and the enthusiast tool.
 Instead of constantly switching tabs in my browser and struggling
 to navigate desktop-focused websites, I decided to marry the two.
 
-## How did I do it?
-- Collecting data
-- API
-- Flutter
+## Technologies
+### API
+The back-end was initially written in PHP. This eventually got too
+difficult to maintain so I migrated to Java using Spring. This
+conventiently lined up with the Java code I had for the Android app.
 
-# Features
+### App
+Back in my university days, Java was my main tool. This made native
+Android app development much easier to learn. In early 2020 I discovered
+Flutter, an easy to learn framework for Android *and* iOS development!
+
+So I took time to learn the framework and release a newer, fresher version
+of the app. Easier to maintain and potential for more platform availability
+
+<!-- # Features
 ## Vehicle Location
 ## Route and Vehicle History
-## Rare Vehicles
+## Rare Vehicles -->
 
 # Gallery
 {% include gallery id="gallery" caption="Gallery" %}

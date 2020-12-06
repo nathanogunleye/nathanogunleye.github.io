@@ -57,3 +57,16 @@ train journey app with a material look and feel.
 The transport enthusiast in me also wants to develop a tool to track
 individual train coaches. Sadly, there is no feed available to retrieve
 this type of information from National Rail (not that I know of at least).
+
+# Early Stages
+Some basic functionality has been created thus far as seen below.
+
+## Live Trains
+The app can show ETA times between two stations, and related travel warnings.
+
+![Live Trains](assets/images/nationaltrainhunter/live_trains.gif){: style="display: block; margin-left: auto; margin-right: auto ;width: 50%" }
+
+## Service Information
+The app can also show ETA times for a particular train journey, as well as actual departure times.
+
+![Service Information](assets/images/nationaltrainhunter/service-information.gif){: style="display: block; margin-left: auto; margin-right: auto ;width: 50%" }

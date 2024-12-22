@@ -18,6 +18,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
+repository: nathanogunleye/nathanogunleye.github.io
+
 title: Nathan Ogunleye
 title_separator: "-"
 subtitle: "My website"
@@ -26,8 +28,8 @@ email: nathanodong@gmail.com
 description: &description "Nathan Ogunleye's Website"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: NathanOgunleye
+github_username:  nathanogunleye
 
 # Conversion
 markdown: kramdown
@@ -48,13 +50,13 @@ author:
       url: "https://www.flickr.com/photos/125738580@N07/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/nathano14"
+      url: "https://github.com/nathanogunleye"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/nathanogunleye"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/NathanOdong"
+      url: "https://twitter.com/NathanOgunleye"
 
 # Build settings
 remote_theme: "mmistakes/minimal-mistakes@4.21.0"

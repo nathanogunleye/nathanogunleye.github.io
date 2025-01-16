@@ -12,6 +12,8 @@ header:
       url: "https://apps.apple.com/us/app/i-spy-emoji/id1624351508"
     - label: "Play Store"
       url: "https://play.google.com/store/apps/details?id=com.nathanodong.i_spy_emoji"
+    - label: "Privacy Policy"
+      url: "/i-spy-emoji/privacy-policy"
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "align-justify"

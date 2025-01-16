@@ -7,8 +7,10 @@ header:
   overlay_image: /assets/images/londonbushunter/SN12ABU.jpg
   overlay_filter: 0.5
   caption: "9531 SN12ABU, Route C2, Abellio London"
-  actions:
-    - label: "Google Play"
+  actions:    
+    - label: "App Store"
+      url: "https://apps.apple.com/us/app/london-bus-hunter/id1583645521"
+    - label: "Play Store"
       url: "https://play.google.com/store/apps/details?id=com.nathanodong.london_bus_hunter"
 toc: true
 toc_label: "Table of Contents"
@@ -95,3 +97,6 @@ provided by TfL. All data is recorded by LBH.
 
 # Gallery
 {% include gallery id="gallery" caption="Gallery" %}
+
+# Contact
+Please contact us by emailing [londonbushunter@gmail.com](mailto:londonbushunter@gmail.com)

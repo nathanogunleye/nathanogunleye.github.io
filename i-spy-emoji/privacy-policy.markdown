@@ -4,9 +4,7 @@ title: I Spy Emoji Privacy Policy
 permalink: /i-spy-emoji/privacy-policy
 excerpt: "Putting the 'fan' in bus fanatic"
 header:
-#  overlay_image: /assets/images/londonbushunter/SN12ABU.jpg
   overlay_filter: 0.5
-#  caption: "9531 SN12ABU, Route C2, Abellio London"
   actions:
     - label: "App Store (Coming Soon)"
       url: ""

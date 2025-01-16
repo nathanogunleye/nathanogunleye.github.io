@@ -14,6 +14,13 @@ feature_row:
     url: "/london-bus-hunter"
     btn_label: "Read More"
     btn_class: "btn--primary"
+  - image_path: /assets/images/home/i_spy_emoji_logo.png
+    alt: "i_spy_emoji_logo"
+    title: "I Spy Emoji"
+    excerpt: "The Ultimate Emoji Challenge!"
+    url: "/i-spy-emoji"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
   - image_path: /assets/images/home/nth_logo.png
     alt: "nth_logo"
     title: "National Train Hunter"

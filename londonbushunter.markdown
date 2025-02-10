@@ -12,6 +12,8 @@ header:
       url: "https://apps.apple.com/us/app/london-bus-hunter/id1583645521"
     - label: "Play Store"
       url: "https://play.google.com/store/apps/details?id=com.nathanodong.london_bus_hunter"
+    - label: "Terms of Use (EULA)"
+      url: "/london-hus-hunter/terms-of-use-eula"
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "align-justify"

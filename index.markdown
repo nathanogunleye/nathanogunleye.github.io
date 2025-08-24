@@ -21,6 +21,13 @@ feature_row:
     url: "/i-spy-emoji"
     btn_label: "Read More"
     btn_class: "btn--primary"
+  - image_path: /assets/images/home/karma_palace_logo.png
+    alt: "karma_palace_logo"
+    title: "Karma Palace"
+    excerpt: "The Card Game for Real Pros!"
+    url: "/karma-palace"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
   - image_path: /assets/images/home/nth_logo.png
     alt: "nth_logo"
     title: "National Train Hunter"

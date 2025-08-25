@@ -1,15 +1,8 @@
 ---
 layout: single
-title: I Spy Emoji Privacy Policy
+title: London Bus Hunter Privacy Policy
 permalink: /london-hus-hunter/privacy-policy
 excerpt: "Putting the 'fan' in bus fanatic"
-header:
-  overlay_filter: 0.5
-  actions:
-    - label: "App Store (Coming Soon)"
-      url: ""
-    - label: "Google Play"
-      url: "https://play.google.com/store/apps/details?id=com.nathanodong.i_spy_emoji"
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "align-justify"

@@ -18,6 +18,14 @@ toc: true
 toc_label: "Table of Contents"
 toc_icon: "align-justify"
 gallery:
+  - url: assets/images/i-spy-emoji/splash_screen.png
+    image_path: assets/images/i-spy-emoji/splash_screen.png
+    alt: "Splash Screen"
+    title: "Splash Screen"
+  - url: assets/images/i-spy-emoji/intro_screen.png
+    image_path: assets/images/i-spy-emoji/intro_screen.png
+    alt: "Intro Screen"
+    title: "Intro Screen"
   - url: assets/images/i-spy-emoji/home_screen.png
     image_path: assets/images/i-spy-emoji/home_screen.png
     alt: "Home Screen"
@@ -26,14 +34,14 @@ gallery:
     image_path: assets/images/i-spy-emoji/game_screen.png
     alt: "Game Screen"
     title: "Game Screen"
+  - url: assets/images/i-spy-emoji/game_screen_2.png
+    image_path: assets/images/i-spy-emoji/game_screen_2.png
+    alt: "Game Screen"
+    title: "Game Screen"
   - url: assets/images/i-spy-emoji/game_lost_screen.png
     image_path: assets/images/i-spy-emoji/game_lost_screen.png
     alt: "Game Lost Message"
     title: "Game Lost Message"
-  - url: assets/images/i-spy-emoji/category_screen.png
-    image_path: assets/images/i-spy-emoji/category_screen.png
-    alt: "Category Screen"
-    title: "Category Screen"
 ---
 I Spy Emoji
 

@@ -1,14 +1,8 @@
 ---
-layout: single
+layout: page
 title: End User License Agreement (EULA)
 permalink: /london-hus-hunter/terms-of-use-eula
 excerpt: "Putting the 'erm?' in terms"
-header:
-  overlay_filter: 0.5
-  actions:
-toc: true
-toc_label: "Table of Contents"
-toc_icon: "align-justify"
 ---
 
 **Effective Date**: 10/02/2025

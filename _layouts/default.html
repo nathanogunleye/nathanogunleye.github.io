@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{% if page.title and page.url != "/" %}{{ page.title }} - {% endif %}{{ site.title }}</title>
+    <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | strip }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:700" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
+</head>
+
+<body class="{% if page.url == '/' %}home{% else %}subpage{% endif %}">
+    <div id="particles-js"></div>
+    {{ content }}
+    <div id="footer">
+        &copy; {{ 'now' | date: "%Y" }} {{ site.name }} &middot;
+        theme based on <a href="https://github.com/imfunniee/fimbo">fimbo</a>
+    </div>
+    <script src="{{ '/assets/js/main.js' | relative_url }}" type="text/javascript"></script>
+    <script src="{{ '/assets/js/particles.js' | relative_url }}"></script>
+    <script src="{{ '/assets/js/particles-config.js' | relative_url }}"></script>
+</body>
+
+</html>

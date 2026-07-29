@@ -1,22 +1,15 @@
 ---
-layout: single
+layout: page
 title: I Spy Emoji
 permalink: /i-spy-emoji/
 excerpt: "The Ultimate Emoji Challenge!"
-header:
-  overlay_image: /assets/images/i-spy-emoji/feature_graphic.png
-  overlay_filter: 0.5
-  caption: "Feature Graphic"
-  actions:
-    - label: "App Store"
-      url: "https://apps.apple.com/us/app/i-spy-emoji/id1624351508"
-    - label: "Play Store"
-      url: "https://play.google.com/store/apps/details?id=com.nathanodong.i_spy_emoji"
-    - label: "Privacy Policy"
-      url: "/i-spy-emoji/privacy-policy"
-toc: true
-toc_label: "Table of Contents"
-toc_icon: "align-justify"
+actions:
+  - label: "App Store"
+    url: "https://apps.apple.com/us/app/i-spy-emoji/id1624351508"
+  - label: "Play Store"
+    url: "https://play.google.com/store/apps/details?id=com.nathanodong.i_spy_emoji"
+  - label: "Privacy Policy"
+    url: "/i-spy-emoji/privacy-policy"
 gallery:
   - url: assets/images/i-spy-emoji/splash_screen.png
     image_path: assets/images/i-spy-emoji/splash_screen.png
@@ -83,6 +76,3 @@ A: Absolutely! I Spy Emoji is designed to be family-friendly and suitable for al
 We love hearing from you! If you have any feedback, suggestions, or need assistance, please leave a comment in the app stores.
 
 **Start your emoji adventure today and see how many you can spot!**
-
-# Gallery
-{% include gallery id="gallery" caption="Gallery" %}

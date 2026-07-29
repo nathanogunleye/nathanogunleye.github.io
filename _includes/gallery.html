@@ -1,0 +1,8 @@
+<h2>Gallery</h2>
+<div class="gallery-grid">
+    {% for image in page.gallery %}
+    {% assign image_src = image.image_path | prepend: '/' | replace: '//', '/' %}
+    <a href="{{ image_src | relative_url }}"><img src="{{ image_src | relative_url }}" alt="{{ image.alt }}"
+            title="{{ image.title }}" loading="lazy"></a>
+    {% endfor %}
+</div>

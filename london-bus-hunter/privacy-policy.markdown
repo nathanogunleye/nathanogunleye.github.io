@@ -1,11 +1,8 @@
 ---
-layout: single
+layout: page
 title: London Bus Hunter Privacy Policy
 permalink: /london-hus-hunter/privacy-policy
 excerpt: "Putting the 'fan' in bus fanatic"
-toc: true
-toc_label: "Table of Contents"
-toc_icon: "align-justify"
 ---
 
 # Privacy Policy

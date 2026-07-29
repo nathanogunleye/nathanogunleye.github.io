@@ -1,8 +1,8 @@
 # main links (subpage top nav)
 main:
-  - title: "home"
+  - title: "Home"
     url: /
-  - title: "apps"
+  - title: "Apps"
     url: /#projects
-  - title: "contact"
+  - title: "Contact"
     url: /#contact

@@ -1,18 +1,8 @@
 ---
-layout: single
+layout: page
 title: Karma Palace Privacy Policy
 permalink: /karma-palace/privacy-policy
 excerpt: ""
-header:
-  overlay_filter: 0.5
-  actions:
-    - label: "App Store (Coming Soon)"
-#      url: ""
-    - label: "Google Play (Coming Soon)"
-#      url: "https://play.google.com/store/apps/details?id=com.nathanodong.karma_palace"
-toc: true
-toc_label: "Table of Contents"
-toc_icon: "align-justify"
 ---
 
 # Privacy Policy

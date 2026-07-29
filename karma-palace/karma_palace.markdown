@@ -1,24 +1,17 @@
 ---
-layout: single
+layout: page
 title: Karma Palace
 permalink: /karma-palace/
 excerpt: "The Card Game for Pros!"
-header:
-  overlay_image: /assets/images/karma-palace/feature_graphic.png
-  overlay_filter: 0.5
-  caption: "Feature Graphic"
-  actions:
-    - label: "App Store (Coming Soon)"
-#      url: "https://apps.apple.com/us/app/i-spy-emoji/id1624351508"
-    - label: "Play Store (Coming Soon)"
-#      url: "https://play.google.com/store/apps/details?id=com.nathanodong.karma_palace"
-    - label: "Web"
-#      url: "https://karma-palace.web.app"
-    - label: "Privacy Policy"
-      url: "/karma-palace/privacy-policy"
-toc: true
-toc_label: "Table of Contents"
-toc_icon: "align-justify"
+actions:
+  - label: "App Store (Coming Soon)"
+#    url: "https://apps.apple.com/us/app/i-spy-emoji/id1624351508"
+  - label: "Play Store (Coming Soon)"
+#    url: "https://play.google.com/store/apps/details?id=com.nathanodong.karma_palace"
+  - label: "Web"
+#    url: "https://karma-palace.web.app"
+  - label: "Privacy Policy"
+    url: "/karma-palace/privacy-policy"
 gallery:
   - url: assets/images/karma-palace/home_screen.png
     image_path: assets/images/karma-palace/home_screen.png
@@ -74,6 +67,3 @@ A: Yes, Karma Palace is free to download and play.
 
 **Q: What devices are supported?**  
 A: The app is available for both iOS, Android, and through the browser.
-
-# Gallery
-{% include gallery id="gallery" caption="Gallery" %}

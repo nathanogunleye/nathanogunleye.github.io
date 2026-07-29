@@ -1,20 +1,13 @@
 ---
-layout: single
+layout: page
 title: National Train Hunter
 permalink: /national-train-hunter/
 excerpt: ""
-header:
-  overlay_image: /assets/images/nationaltrainhunter/bakerloo_line_platform.jpg
-  overlay_filter: 0.5
-  caption: "Elephant & Castle Bakerloo Line Platform"
-  actions:
-    - label: "GitHub (App)"
-      url: "https://github.com/NathanO14/National-Train-Hunter-Flutter"
-    - label: "GitHub (API)"
-      url: "https://github.com/NathanO14/National-Train-Hunter-Web-Service"
-toc: true
-toc_label: "Table of Contents"
-toc_icon: "align-justify"
+actions:
+  - label: "GitHub (App)"
+    url: "https://github.com/NathanO14/National-Train-Hunter-Flutter"
+  - label: "GitHub (API)"
+    url: "https://github.com/NathanO14/National-Train-Hunter-Web-Service"
 ---
 National Train Hunter (NTH) 
 
@@ -64,9 +57,9 @@ Some basic functionality has been created thus far as seen below.
 ## Live Trains
 The app can show ETA times between two stations, and related travel warnings.
 
-![Live Trains](assets/images/nationaltrainhunter/live_trains.gif){: style="display: block; margin-left: auto; margin-right: auto ;width: 50%" }
+![Live Trains](/assets/images/nationaltrainhunter/live_trains.gif){: style="display: block; margin-left: auto; margin-right: auto ;width: 50%" }
 
 ## Service Information
 The app can also show ETA times for a particular train journey, as well as actual departure times.
 
-![Service Information](assets/images/nationaltrainhunter/service-information.gif){: style="display: block; margin-left: auto; margin-right: auto ;width: 50%" }
+![Service Information](/assets/images/nationaltrainhunter/service-information.gif){: style="display: block; margin-left: auto; margin-right: auto ;width: 50%" }

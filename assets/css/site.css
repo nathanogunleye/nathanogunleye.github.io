@@ -1,0 +1,122 @@
+/* Site-specific overrides, loaded after main.css. Keep main.css pristine. */
+
+/* Local background image instead of the template's Unsplash hotlink */
+body {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+        url("/assets/images/home/YX12FON_interior.jpg") center center;
+    background-size: cover;
+}
+
+/* main.css sets body { overflow:hidden } for the single-page home;
+   subpages (app + legal pages) must scroll normally */
+body.subpage {
+    overflow: auto;
+    height: auto;
+    min-height: 100vh;
+}
+body.subpage #footer {
+    position: static;
+    width: auto;
+    text-align: center;
+}
+
+/* Subpage top nav */
+.site-nav {
+    position: relative;
+    z-index: 3;
+    padding: 20px 6%;
+}
+.site-nav a {
+    color: #fff;
+    margin-right: 20px;
+    font-size: 18px;
+    text-decoration: underline;
+    transition: 0.4s ease-in-out;
+}
+.site-nav a:hover {
+    color: rgb(50, 120, 255);
+}
+
+/* Subpage content panel */
+.page-panel {
+    position: relative;
+    z-index: 2;
+    max-width: 900px;
+    margin: 20px auto 60px;
+    padding: 40px 6%;
+    background: rgba(23, 23, 23, 0.96);
+    color: #fff;
+    border-radius: 6px;
+    line-height: 1.6;
+}
+.page-panel h1 {
+    color: rgb(50, 120, 255);
+    text-decoration: underline;
+    font-size: 44px;
+}
+.page-panel h2 {
+    margin-top: 40px;
+}
+.page-panel a {
+    color: rgb(50, 120, 255);
+}
+.page-panel li {
+    margin: 6px 0;
+}
+.page-panel img {
+    max-width: 100%;
+}
+.page-panel .btn_one a {
+    color: inherit;
+    text-decoration: none;
+}
+.page-panel .btn_one[disabled] {
+    opacity: 0.5;
+}
+.page-panel .btn_one[disabled]:hover {
+    cursor: default;
+    color: #fff;
+    background: transparent;
+}
+
+/* Screenshot gallery */
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 12px;
+    margin: 20px 0;
+}
+.gallery-grid img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+    display: block;
+}
+
+/* Project cards on the home projects panel */
+#projects_container ul {
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 20px;
+}
+.project_card {
+    border: 2px solid #fff;
+    border-radius: 8px;
+    padding: 20px;
+}
+.project_card img.app-logo {
+    width: 64px;
+    height: 64px;
+    border-radius: 12px;
+}
+.project_card h3 {
+    margin: 10px 0;
+}
+.project_card p {
+    font-size: 17px !important;
+}
+.project_card .btn_one a {
+    color: inherit;
+    text-decoration: none;
+}

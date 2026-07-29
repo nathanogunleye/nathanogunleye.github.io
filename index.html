@@ -1,0 +1,115 @@
+---
+layout: default
+title: Home
+excerpt: "Hi, I'm Nathan and I build apps for fun."
+projects:
+  - title: London Bus Hunter
+    logo: /assets/images/home/lbh_logo.png
+    excerpt: "Useful tool for bus enthusiasts in London"
+    url: /london-bus-hunter/
+  - title: I Spy Emoji
+    logo: /assets/images/home/i_spy_emoji_logo.png
+    excerpt: "The Ultimate Emoji Challenge!"
+    url: /i-spy-emoji/
+  - title: Karma Palace
+    logo: /assets/images/home/karma_palace_logo.png
+    excerpt: "The Card Game for Real Pros!"
+    url: /karma-palace/
+  - title: National Train Hunter
+    logo: /assets/images/home/nth_logo.png
+    excerpt: "Train times app for UK National Rail services"
+    url: /national-train-hunter/
+  - title: Savings Number Cruncher
+    logo: /assets/images/home/snc_logo.png
+    excerpt: "Simple, bare basic savings calculator"
+    url: /savings-number-cruncher/
+---
+<div id="loading">
+    <div id="spinner"></div>
+</div>
+<div id="box">
+    <div class="box1 onlywide animated bounceOutLeft" style="animation-delay: 1700ms;"></div>
+    <div class="box2 onlywide animated bounceOutLeft" style="animation-delay: 1800ms;"></div>
+    <div class="box2 onlywide animated bounceOutLeft" style="animation-delay: 1900ms;"></div>
+    <div class="box2 animated bounceOutRight" style="animation-delay: 1900ms;"></div>
+    <div class="box2 onlywide animated bounceOutRight" style="animation-delay: 1800ms;"></div>
+    <div class="box2 onlywide animated bounceOutRight" style="animation-delay: 1700ms;"></div>
+</div>
+<a id="about" onclick="showabout()" class="animated fadeIn" style="animation-delay: 1000ms;">About</a>
+<a id="contact" onclick="showcontact()" class="animated fadeIn" style="animation-delay: 1000ms;">Contact</a>
+<a id="projects" onclick="showprojects()" class="animated fadeIn" style="animation-delay: 1000ms;">Apps</a>
+<div id="middle" class="animated slideInDown" style="animation-delay: 2000ms;">
+    <h1>Nathan.</h1>
+    <h2>Software Engineer / App Builder / Transport Enthusiast</h2>
+    <div id="menu">
+        <a onclick="showabout()">About</a>
+        <a onclick="showcontact()">Contact</a>
+        <a onclick="showprojects()">Apps</a>
+    </div>
+    <table>
+        <tr>
+            {% for link in site.author.links %}
+            <td class="animated zoomIn" style="animation-delay:{{ forloop.index0 | times: 0.2 | plus: 2.2 }}s;"><a
+                    class="social" href="{{ link.url }}" title="{{ link.label }}"><i class="{{ link.icon }}"></i></a>
+            </td>
+            {% endfor %}
+        </tr>
+    </table>
+</div>
+<div id="projects_container" class="container">
+    <div onclick="closeprojects()"><i class="fas fa-angle-right"></i></div>
+    <h1>Apps.</h1>
+    <section>
+        <h2>My Apps</h2>
+        <p>
+            Welcome to my small little corner of the Internet. You can find links to pages about my apps below.
+        </p>
+        <ul>
+            {% for project in page.projects %}
+            <div class="project_card">
+                <div class="project_info">
+                    <img class="app-logo" src="{{ project.logo | relative_url }}" alt="{{ project.title }} logo">
+                    <h3>{{ project.title }}</h3>
+                    <p>{{ project.excerpt }}</p>
+                    <button class="btn_one"><a href="{{ project.url | relative_url }}">Read More</a></button>
+                </div>
+            </div>
+            {% endfor %}
+        </ul>
+    </section>
+</div>
+<div id="about_container" class="container">
+    <div onclick="closeabout()"><i class="fas fa-angle-left"></i></div>
+    <h1>About.</h1>
+    <section>
+        <h2>About Me</h2>
+        <p>
+            My name is Nathan Ogunleye.
+        </p>
+        <p>
+            I am a Software Engineer.
+        </p>
+        <p>
+            I like transport. I also like code. Sometimes I like to bring the two together.
+        </p>
+        <p>
+            Check out my stuff!
+        </p>
+    </section>
+</div>
+<div id="contact_container" class="container">
+    <div onclick="closecontact()"><i class="fas fa-angle-down"></i></div>
+    <h1>Contact.</h1>
+    <section>
+        <h2>Contact Me</h2>
+        <p>
+            Drop me an email at <a href="mailto:{{ site.email }}" style="color:#fff">{{ site.email }}</a> or find me
+            here:
+        </p>
+        <p>
+            {% for link in site.author.links %}
+            <a class="social" href="{{ link.url }}" title="{{ link.label }}"><i class="{{ link.icon }}"></i></a>
+            {% endfor %}
+        </p>
+    </section>
+</div>

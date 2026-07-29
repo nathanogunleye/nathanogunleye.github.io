@@ -1,24 +1,17 @@
 ---
-layout: single
+layout: page
 title: London Bus Hunter
 permalink: /london-bus-hunter/
 excerpt: "Putting the 'fan' in bus fanatic"
-header:
-  overlay_image: /assets/images/londonbushunter/SN12ABU.jpg
-  overlay_filter: 0.5
-  caption: "9531 SN12ABU, Route C2, Abellio London"
-  actions:    
-    - label: "App Store"
-      url: "https://apps.apple.com/us/app/london-bus-hunter/id1583645521"
-    - label: "Play Store"
-      url: "https://play.google.com/store/apps/details?id=com.nathanodong.london_bus_hunter"
-    - label: "Privacy Policy"
-      url: "/london-hus-hunter/privacy-policy"
-    - label: "Terms of Use (EULA)"
-      url: "/london-hus-hunter/terms-of-use-eula"
-toc: true
-toc_label: "Table of Contents"
-toc_icon: "align-justify"
+actions:
+  - label: "App Store"
+    url: "https://apps.apple.com/us/app/london-bus-hunter/id1583645521"
+  - label: "Play Store"
+    url: "https://play.google.com/store/apps/details?id=com.nathanodong.london_bus_hunter"
+  - label: "Privacy Policy"
+    url: "/london-hus-hunter/privacy-policy"
+  - label: "Terms of Use (EULA)"
+    url: "/london-hus-hunter/terms-of-use-eula"
 gallery:
   - url: assets/images/londonbushunter/vehicle_location.jpg
     image_path: assets/images/londonbushunter/vehicle_location.jpg
@@ -90,17 +83,14 @@ to the TfL API feed.
 LBH will show you which vehicles are rare or new to a route. You can sort
 these results by Fleet Code, Operator Name, Route Name, or ETA.
 
-![Rare Vehicles](assets/images/londonbushunter/rare_vehicles.gif){: style="display: block; margin-left: auto; margin-right: auto ;width: 50%" }
+![Rare Vehicles](/assets/images/londonbushunter/rare_vehicles.gif){: style="display: block; margin-left: auto; margin-right: auto ;width: 50%" }
 
 ## Route and Vehicle History
 LBH stores up to 3 months worth of historical bus workings in it's database 
 (Sorting functionality coming later). Historical vehicle usage data is not
 provided by TfL. All data is recorded by LBH.
 
-![Vehicle History](assets/images/londonbushunter/vehicle_history.gif){: style="display: block; margin-left: auto; margin-right: auto ;width: 50%" }
-
-# Gallery
-{% include gallery id="gallery" caption="Gallery" %}
+![Vehicle History](/assets/images/londonbushunter/vehicle_history.gif){: style="display: block; margin-left: auto; margin-right: auto ;width: 50%" }
 
 # Contact
 Please contact us by emailing [londonbushunter@gmail.com](mailto:londonbushunter@gmail.com)

@@ -1,25 +1,29 @@
 ---
 permalink: /404.html
-layout: default
 ---
+<!DOCTYPE html>
+<html lang="en">
 
-<style type="text/css" media="screen">
-  .container {
-    margin: 10px auto;
-    max-width: 600px;
-    text-align: center;
-  }
-  h1 {
-    margin: 30px 0;
-    font-size: 4em;
-    line-height: 1;
-    letter-spacing: -1px;
-  }
-</style>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 - Nathan Ogunleye</title>
+    <link type="text/css" rel="stylesheet" href="/assets/css/404.css" />
+</head>
 
-<div class="container">
-  <h1>404</h1>
+<body class="permission_denied">
+    <div id="tsparticles"></div>
+    <div class="denied__wrapper">
+        <h1>404</h1>
+        <h3>LOST IN <span>SPACE</span>? Hmm, looks like that page doesn't exist.</h3>
+        <img id="astronaut" src="/assets/images/404/astronaut.svg" />
+        <img id="planet" src="/assets/images/404/planet.svg" />
+        <a href="/"><button class="denied__link">Go Home</button></a>
+    </div>
 
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
-</div>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/tsparticles@1.18.11/dist/tsparticles.min.js"></script>
+    <script type="text/javascript" src="/assets/js/404.js"></script>
+</body>
+
+</html>

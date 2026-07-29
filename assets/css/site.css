@@ -34,7 +34,7 @@ body.subpage #footer {
     transition: 0.4s ease-in-out;
 }
 .site-nav a:hover {
-    color: rgb(255, 50, 50);
+    color: rgb(50, 120, 255);
 }
 
 /* Subpage content panel */
@@ -50,7 +50,7 @@ body.subpage #footer {
     line-height: 1.6;
 }
 .page-panel h1 {
-    color: rgb(255, 50, 50);
+    color: rgb(50, 120, 255);
     text-decoration: underline;
     font-size: 44px;
 }
@@ -58,7 +58,7 @@ body.subpage #footer {
     margin-top: 40px;
 }
 .page-panel a {
-    color: rgb(255, 50, 50);
+    color: rgb(50, 120, 255);
 }
 .page-panel li {
     margin: 6px 0;

@@ -8,8 +8,6 @@ actions:
     url: "https://apps.apple.com/us/app/karma-palace/id1664286912"
   - label: "Play Store"
     url: "https://play.google.com/store/apps/details?id=com.nathanodong.karma_palace"
-  - label: "Web"
-    url: "https://karma-palace.web.app"
   - label: "Privacy Policy"
     url: "/karma-palace/privacy-policy"
 gallery:

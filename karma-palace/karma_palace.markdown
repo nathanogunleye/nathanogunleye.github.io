@@ -4,12 +4,10 @@ title: Karma Palace
 permalink: /karma-palace/
 excerpt: "The Card Game for Pros!"
 actions:
-  - label: "App Store (Coming Soon)"
-#    url: "https://apps.apple.com/us/app/i-spy-emoji/id1624351508"
-  - label: "Play Store (Coming Soon)"
-#    url: "https://play.google.com/store/apps/details?id=com.nathanodong.karma_palace"
-  - label: "Web"
-#    url: "https://karma-palace.web.app"
+  - label: "App Store"
+    url: "https://apps.apple.com/us/app/karma-palace/id1664286912"
+  - label: "Play Store"
+    url: "https://play.google.com/store/apps/details?id=com.nathanodong.karma_palace"
   - label: "Privacy Policy"
     url: "/karma-palace/privacy-policy"
 gallery:
@@ -54,7 +52,7 @@ Your goal is simple: be the first to clear your hand while leaving your opponent
 - A stylish, minimalist design that keeps the focus on the game
 
 ## How to Get Started
-1. **Download the App**: Available on the App Store and Google Play Store. Alternatively, try the [web version](https://karma-palace.web.app/)
+1. **Download the App**: Available on the App Store and Google Play Store.
 2. **Launch the Game**: Open the app and test your karma.
 3. **Play**: Challenge yourself or compete with friends.
 
@@ -66,4 +64,4 @@ We love hearing from you! If you have any feedback, suggestions, or need assista
 A: Yes, Karma Palace is free to download and play.
 
 **Q: What devices are supported?**  
-A: The app is available for both iOS, Android, and through the browser.
+A: The app is available for both iOS and Android devices.

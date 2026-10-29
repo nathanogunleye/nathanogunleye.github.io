@@ -4,12 +4,12 @@ title: Karma Palace
 permalink: /karma-palace/
 excerpt: "The Card Game for Pros!"
 actions:
-  - label: "App Store (Coming Soon)"
-#    url: "https://apps.apple.com/us/app/i-spy-emoji/id1624351508"
-  - label: "Play Store (Coming Soon)"
-#    url: "https://play.google.com/store/apps/details?id=com.nathanodong.karma_palace"
+  - label: "App Store"
+    url: "https://apps.apple.com/us/app/karma-palace/id1664286912"
+  - label: "Play Store"
+    url: "https://play.google.com/store/apps/details?id=com.nathanodong.karma_palace"
   - label: "Web"
-#    url: "https://karma-palace.web.app"
+    url: "https://karma-palace.web.app"
   - label: "Privacy Policy"
     url: "/karma-palace/privacy-policy"
 gallery:

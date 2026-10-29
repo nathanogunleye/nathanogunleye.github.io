@@ -4,7 +4,8 @@ title: I Spy Emoji Privacy Policy
 permalink: /i-spy-emoji/privacy-policy
 excerpt: ""
 actions:
-  - label: "App Store (Coming Soon)"
+  - label: "App Store"
+    url: "https://apps.apple.com/us/app/i-spy-emoji/id1624351508"
   - label: "Google Play"
     url: "https://play.google.com/store/apps/details?id=com.nathanodong.i_spy_emoji"
 ---

@@ -52,7 +52,7 @@ Your goal is simple: be the first to clear your hand while leaving your opponent
 - A stylish, minimalist design that keeps the focus on the game
 
 ## How to Get Started
-1. **Download the App**: Available on the App Store and Google Play Store. Alternatively, try the [web version](https://karma-palace.web.app/)
+1. **Download the App**: Available on the App Store and Google Play Store.
 2. **Launch the Game**: Open the app and test your karma.
 3. **Play**: Challenge yourself or compete with friends.
 

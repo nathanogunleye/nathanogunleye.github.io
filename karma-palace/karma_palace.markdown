@@ -64,4 +64,4 @@ We love hearing from you! If you have any feedback, suggestions, or need assista
 A: Yes, Karma Palace is free to download and play.
 
 **Q: What devices are supported?**  
-A: The app is available for both iOS, Android, and through the browser.
+A: The app is available for both iOS and Android devices.
